@@ -35,7 +35,7 @@ const Discount = () => {
       </div>
       <div className="w-[1120px] ml-9 h-[432px]  flex justify-between">
         {disc.map((discount) => (
-          <div className="w-[268px] h-[100%]  bg-[#F6F6F6] ">
+          <div key={discount.price} className="w-[268px] h-[100%]  bg-[#F6F6F6] ">
             <div className="w-[236px] h-[32px] mt-9 ml-4 flex justify-end">
               <IoIosHeartEmpty className="w-[20px] h-[20px]" />
             </div>
