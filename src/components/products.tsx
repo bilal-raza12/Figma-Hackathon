@@ -44,7 +44,7 @@ const Products = () => {
                   Apple Airpods <span className="font-semibold">Max</span>
                 </div>
                 <p className="text-[#909090] font-medium leading-6 text-[14px] ml-4">
-                  Computational audio Listen, it's powerful
+                  Computational audio Listen, it&apos;s powerful
                 </p>
               </div>
             </div>
